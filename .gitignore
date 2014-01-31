@@ -1,0 +1,9 @@
+matrix
+tags
+Doxyfile
+html/*
+latex/*
+*.tmp
+*.exe
+cxxtest
+*.vim
