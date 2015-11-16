@@ -3,7 +3,7 @@ all: tags ut
 CPPFLAGS = -Wall -lm -DNDEBUG
 
 testMatrix: testMatrix.cpp matrix.h
-	sudo apt-get install libunittest++-dev
+	sudo apt-get install libunittest++
 	g++ $< $(CPPFLAGS) -lunittest++ -g -o $@
 
 ut: testMatrix
